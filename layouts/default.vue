@@ -58,12 +58,12 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Welcome',
+          title: 'Profile',
           to: '/'
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Portfolio',
+          title: 'Favorite',
           to: '/about'
         }
       ],
