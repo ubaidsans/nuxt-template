@@ -1,9 +1,9 @@
 <template>
-  <v-parallax height="100%" src="https://cdn.vuetifyjs.com/images/parallax/material.jpg" class="pb-20">
+  <v-parallax height="100%" src="https://storage.googleapis.com/bucketremmon12/material.jpeg" class="pb-20">
     <v-row no-gutters style="height: 300px;">
       <v-col class="text-center" cols="12">
         <v-avatar size="100px" class="mt-10">
-          <v-img src="/profile.jpg" max-height="150" max-width="250" />
+          <v-img src="https://storage.googleapis.com/bucketremmon12/profile.jpg" max-height="150" max-width="250" />
         </v-avatar>
         <blockquote class="blockquote">
           &#8220;Once you’ve accepted your flaws, no one can use them against you.&#8221;
@@ -28,7 +28,7 @@
               <v-container fluid>
                 <v-row>
                   <v-col cols="3">
-                    <v-img src="/profile.jpg"></v-img>
+                    <v-img src="https://storage.googleapis.com/bucketremmon12/profile.jpg"></v-img>
                   </v-col>
                   <v-col cols="9">
                     <v-text class="ml-5 mt-3 mb-3">
@@ -88,7 +88,7 @@
                         </v-row>
                       </v-col>
                       <v-col cols="3">
-                        <v-img src="/profile1.jpg"></v-img>
+                        <v-img src="https://storage.googleapis.com/bucketremmon12/profile1.jpg"></v-img>
                       </v-col>
                     </v-row>
                     <v-divider inset></v-divider>

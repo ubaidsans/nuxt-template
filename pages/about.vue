@@ -11,7 +11,7 @@
       <v-tab>Movie</v-tab>
       <v-tab>TV</v-tab>
       <v-tab>Travelling</v-tab>
-
+//tes
       <v-tab-item>
         <v-container fluid>
           <v-row>
@@ -219,15 +219,15 @@ export default {
     return {
       selectedItem: null,
       items: [
-        {id: 1, src: require("../static/bajo1.jpg")},
-        {id: 2, src: require("../static/bajo2.jpg")},
-        {id: 3, src: require("../static/bajo3.jpg")},
-        {id: 4, src: require("../static/bajo4.jpg")},
-        {id: 5, src: require("../static/bajo5.jpg")},
-        {id: 6, src: require("../static/bajo6.jpg")},
-        {id: 7, src: require("../static/bajo7.jpg")},
-        {id: 8, src: require("../static/bajo8.jpg")},
-        {id: 9, src: require("../static/bajo9.jpg")}
+        {id: 1, src: "https://storage.googleapis.com/bucketremmon12/bajo1.jpg"},
+        {id: 2, src: "https://storage.googleapis.com/bucketremmon12/bajo2.jpg"},
+        {id: 3, src: "https://storage.googleapis.com/bucketremmon12/bajo3.jpg"},
+        {id: 4, src: "https://storage.googleapis.com/bucketremmon12/bajo4.jpg"},
+        {id: 5, src: "https://storage.googleapis.com/bucketremmon12/bajo5.jpg"},
+        {id: 6, src: "https://storage.googleapis.com/bucketremmon12/bajo6.jpg"},
+        {id: 7, src: "https://storage.googleapis.com/bucketremmon12/bajo7.jpg"},
+        {id: 8, src: "https://storage.googleapis.com/bucketremmon12/bajo8.jpg"},
+        {id: 9, src: "https://storage.googleapis.com/bucketremmon12/bajo9.jpg"}
       ]
     }
   }
